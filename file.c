@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(int argc, char* argv[]){i
+int main(int argc, char* argv[]){
 
 	//Isolate search patter arugment
 	char* search_pattern = argv[1];
@@ -38,7 +38,6 @@ int main(int argc, char* argv[]){i
 					//Check that the next characters also fit the search pattern.
 					if (word[x] == search_pattern[pattern_index]){
 						pattern_index++;
-						printf("%d\n", pattern_index);
 					}
 				} 
 
